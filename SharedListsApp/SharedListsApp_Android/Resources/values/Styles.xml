@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+
+  <!-- Theme 1 Starts -->
+  <style name="Theme1.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+  <style name="Theme1.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+  <style name="Theme1" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Colors Area Starts -->
+    <item name="attr_color_primary_first">@color/theme1_color_primary_first</item>
+    <item name="attr_color_primary_second">@color/theme1_color_primary_second</item>
+    <item name="attr_color_primary_third">@color/theme1_color_primary_third</item>
+    <item name="attr_color_primary_fourth">@color/theme1_color_primary_fourth</item>
+    <item name="attr_error_red">@color/theme1_error_red</item>
+    <item name="attr_color_accent_primary">@color/theme1_color_accent_primary</item>
+    <item name="attr_color_accent_secondary">@color/theme1_color_accent_secondary</item>
+    <item name="attr_color_text_first">@color/theme1_color_text_first</item>
+    <item name="attr_color_text_second">@color/theme1_color_text_second</item>
+    <!-- Colors Area Ends -->
+    <item name="colorPrimary">?attr/attr_color_primary_second</item>
+    <item name="colorPrimaryDark">?attr/attr_color_primary_first</item>
+    <item name="colorAccent">?attr/attr_color_accent_primary</item>
+    <item name="android:colorBackground">?attr/attr_color_primary_third</item>
+    <item name="android:windowBackground">?attr/attr_color_primary_third</item>
+  </style>
+
+  <style name="Theme1.NoActionBar">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+  </style>
+
+  <style name="Theme1.NoTrans" parent="Theme1"/>
+
+  <style name="Theme1.NoActionBar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+  <style name="Theme1.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+  <!-- Theme 1 Ends -->
+
+
+
+
+
+
+
+    <!-- Views Themes -->
+
+    <!-- Brand Logo Starts -->
+    <style name="ImageViewBrandLogo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">160dp</item>
+
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:layout_marginBottom">24dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+    <!-- Brand Logo Ends -->
+
+    <!-- Simple Input2 Starts -->
+    <style name="SimpleInput">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:ems">10</item>
+        <item name="met_baseColor">?attr/attr_color_text_first</item>
+        <item name="met_primaryColor">?attr/attr_color_accent_primary</item>
+        <item name="met_errorColor">?attr/attr_error_red</item>
+        <item name="met_floatingLabel">highlight</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="SimpleInput.NoEditable" parent="SimpleInput">
+        <item name="android:clickable">false</item>
+        <item name="android:cursorVisible">false</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+    </style>
+    <!-- Simple Input2 Ends -->
+
+    <!-- Simple Button Starts -->
+    <style name="SimpleButton" parent="Widget.AppCompat.Button">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:background">@drawable/button</item>
+        <item name="android:textColor">?attr/attr_color_text_second</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginLeft">28dp</item>
+        <item name="android:layout_marginRight">28dp</item>
+    </style>
+    <!-- Simple Button Ends -->
+
+    <style name="MainScreenLabel">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">?attr_color_text_first</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="SimpleTitle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">?attr_color_text_first</item>
+    </style>
+
+    <style name="SimpleSpinner" parent="Base.Widget.AppCompat.Spinner">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:popupBackground">?attr/attr_color_text_second</item>
+        <item name="ms_baseColor">?attr/attr_color_primary_fourth</item>
+        <item name="ms_highlightColor">?attr/attr_color_accent_primary</item>
+        <item name="ms_hintColor">?attr/attr_color_primary_second</item>
+        <item name="ms_arrowColor">?attr/attr_color_accent_secondary</item>
+        <item name="ms_floatingLabelColor">?attr/attr_color_accent_primary</item>
+        <item name="ms_errorColor">?attr/attr_error_red</item>
+        <item name="ms_multiline">false</item>
+        <item name="ms_enableFloatingLabel">true</item>
+        <item name="ms_enableErrorLabel">true</item>
+        <item name="ms_thickness">2dp</item>
+        <item name="ms_arrowSize">14dp</item>
+        <item name="ms_alignLabels">true</item>
+    </style>
+
+    
+</resources>
