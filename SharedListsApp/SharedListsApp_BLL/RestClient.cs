@@ -1,9 +1,9 @@
-﻿using System;
+﻿
+using Newtonsoft.Json;
+using SharedListsApp.Entities;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Newtonsoft.Json;
-using SharedListsApp.Entities;
 
 namespace SharedListsApp
 {

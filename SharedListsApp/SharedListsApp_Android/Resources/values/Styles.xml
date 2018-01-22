@@ -70,10 +70,6 @@
         <item name="android:paddingBottom">0dp</item>
         <item name="android:paddingTop">0dp</item>
         <item name="android:ems">10</item>
-        <item name="met_baseColor">?attr/attr_color_text_first</item>
-        <item name="met_primaryColor">?attr/attr_color_accent_primary</item>
-        <item name="met_errorColor">?attr/attr_error_red</item>
-        <item name="met_floatingLabel">highlight</item>
         <item name="android:fontFamily">sans-serif</item>
         <item name="android:textSize">16sp</item>
     </style>
@@ -114,24 +110,6 @@
         <item name="android:padding">8dp</item>
         <item name="android:textSize">18sp</item>
         <item name="android:textColor">?attr_color_text_first</item>
-    </style>
-
-    <style name="SimpleSpinner" parent="Base.Widget.AppCompat.Spinner">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:popupBackground">?attr/attr_color_text_second</item>
-        <item name="ms_baseColor">?attr/attr_color_primary_fourth</item>
-        <item name="ms_highlightColor">?attr/attr_color_accent_primary</item>
-        <item name="ms_hintColor">?attr/attr_color_primary_second</item>
-        <item name="ms_arrowColor">?attr/attr_color_accent_secondary</item>
-        <item name="ms_floatingLabelColor">?attr/attr_color_accent_primary</item>
-        <item name="ms_errorColor">?attr/attr_error_red</item>
-        <item name="ms_multiline">false</item>
-        <item name="ms_enableFloatingLabel">true</item>
-        <item name="ms_enableErrorLabel">true</item>
-        <item name="ms_thickness">2dp</item>
-        <item name="ms_arrowSize">14dp</item>
-        <item name="ms_alignLabels">true</item>
     </style>
 
     
