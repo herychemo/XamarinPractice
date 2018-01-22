@@ -28,5 +28,8 @@
             android:layout_height="wrap_content"
             android:id="@+id/textView1"
             style="@style/SimpleTitle" />
+      
+      
+      
     </LinearLayout>
 </android.support.design.widget.CoordinatorLayout>

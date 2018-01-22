@@ -5,7 +5,7 @@ using Android.Support.V7.App;
 
 namespace SharedListsApp_Android
 {
-    [Activity(Label = "Phoneword", MainLauncher = true, Icon = "@drawable/icon", Theme = "@style/Theme1")]
+    [Activity(Label = "Shared Lists App", MainLauncher = true, Icon = "@drawable/icon", Theme = "@style/Theme1")]
     public class MainActivity : AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
