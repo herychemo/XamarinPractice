@@ -130,6 +130,16 @@
     <Folder Include="Resources\mipmap-xxxhdpi\" />
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SharedListsApp_BLL\SharedListsApp_BLL.csproj">
+      <Project>{868B018B-6B7A-4FAC-83C8-7160FEA51E96}</Project>
+      <Name>SharedListsApp_BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SharedListsApp_DAL\SharedListsApp_DAL.csproj">
+      <Project>{56548D93-4E13-47DF-805F-7C94A68A7131}</Project>
+      <Name>SharedListsApp_DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Android.Support.Annotations.26.1.0.1\build\MonoAndroid80\Xamarin.Android.Support.Annotations.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Annotations.26.1.0.1\build\MonoAndroid80\Xamarin.Android.Support.Annotations.targets')" />
   <Import Project="..\packages\Xamarin.Android.Arch.Core.Common.1.0.0\build\MonoAndroid80\Xamarin.Android.Arch.Core.Common.targets" Condition="Exists('..\packages\Xamarin.Android.Arch.Core.Common.1.0.0\build\MonoAndroid80\Xamarin.Android.Arch.Core.Common.targets')" />
