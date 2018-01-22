@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+  <!-- Theme 1 Starts -->
+  <style name="Theme1.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+  <style name="Theme1.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+  <style name="Theme1" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Colors Area Starts -->
+    <item name="attr_color_primary_first">@color/theme1_color_primary_first</item>
+    <item name="attr_color_primary_second">@color/theme1_color_primary_second</item>
+    <item name="attr_color_primary_third">@color/theme1_color_primary_third</item>
+    <item name="attr_color_primary_fourth">@color/theme1_color_primary_fourth</item>
+    <item name="attr_error_red">@color/theme1_error_red</item>
+    <item name="attr_color_accent_primary">@color/theme1_color_accent_primary</item>
+    <item name="attr_color_accent_secondary">@color/theme1_color_accent_secondary</item>
+    <item name="attr_color_text_first">@color/theme1_color_text_first</item>
+    <item name="attr_color_text_second">@color/theme1_color_text_second</item>
+    <!-- Colors Area Ends -->
+    <item name="colorPrimary">?attr/attr_color_primary_second</item>
+    <item name="colorPrimaryDark">?attr/attr_color_primary_first</item>
+    <item name="colorAccent">?attr/attr_color_accent_primary</item>
+    <item name="android:colorBackground">?attr/attr_color_primary_third</item>
+    <item name="android:windowBackground">?attr/attr_color_primary_third</item>
+  </style>
+
+  <style name="Theme1.NoActionBar">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+  </style>
+
+  <style name="Theme1.NoTrans" parent="Theme1"/>
+
+  <style name="Theme1.NoActionBar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+  <style name="Theme1.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+  <!-- Theme 1 Ends -->
+
+  <!-- Theme 2 Starts -->
+  <style name="Theme2.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+  <style name="Theme2.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+  <style name="Theme2" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Colors Area Starts -->
+    <item name="attr_color_primary_first">@color/theme2_color_primary_first</item>
+    <item name="attr_color_primary_second">@color/theme2_color_primary_second</item>
+    <item name="attr_color_primary_third">@color/theme2_color_primary_third</item>
+    <item name="attr_color_primary_fourth">@color/theme2_color_primary_fourth</item>
+    <item name="attr_error_red">@color/theme2_error_red</item>
+    <item name="attr_color_accent_primary">@color/theme2_color_accent_primary</item>
+    <item name="attr_color_accent_secondary">@color/theme2_color_accent_secondary</item>
+    <item name="attr_color_text_first">@color/theme2_color_text_first</item>
+    <item name="attr_color_text_second">@color/theme2_color_text_second</item>
+    <!-- Colors Area Ends -->
+    <item name="colorPrimary">?attr/attr_color_primary_second</item>
+    <item name="colorPrimaryDark">?attr/attr_color_primary_first</item>
+    <item name="colorAccent">?attr/attr_color_accent_primary</item>
+    <item name="android:colorBackground">?attr/attr_color_primary_third</item>
+    <item name="android:windowBackground">?attr/attr_color_primary_third</item>
+  </style>
+
+  <style name="Theme2.NoActionBar">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+  </style>
+
+  <style name="Theme2.NoTrans" parent="Theme2"/>
+
+  <style name="Theme2.NoActionBar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+  <style name="Theme2.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+  <!-- Theme 2 Ends -->
+
+
+</resources>

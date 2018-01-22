@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+  <attr name="attr_color_primary_first" format="reference"/>
+  <attr name="attr_color_primary_second" format="reference"/>
+  <attr name="attr_color_primary_third" format="reference"/>
+  <attr name="attr_color_primary_fourth" format="reference"/>
+  <attr name="attr_error_red" format="reference"/>
+  <attr name="attr_color_accent_primary" format="reference"/>
+  <attr name="attr_color_accent_secondary" format="reference"/>
+  <attr name="attr_color_text_first" format="reference"/>
+  <attr name="attr_color_text_second" format="reference"/>
+
+</resources>
