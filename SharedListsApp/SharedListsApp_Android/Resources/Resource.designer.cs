@@ -2385,14 +2385,17 @@ namespace SharedListsApp_Android
 			// aapt resource value: 0x7f070034
 			public const int META = 2131165236;
 			
+			// aapt resource value: 0x7f07009a
+			public const int MyRecyclerList = 2131165338;
+			
 			// aapt resource value: 0x7f070035
 			public const int SHIFT = 2131165237;
 			
 			// aapt resource value: 0x7f070036
 			public const int SYM = 2131165238;
 			
-			// aapt resource value: 0x7f07009d
-			public const int action0 = 2131165341;
+			// aapt resource value: 0x7f07009e
+			public const int action0 = 2131165342;
 			
 			// aapt resource value: 0x7f07007b
 			public const int action_bar = 2131165307;
@@ -2415,17 +2418,17 @@ namespace SharedListsApp_Android
 			// aapt resource value: 0x7f070059
 			public const int action_bar_title = 2131165273;
 			
-			// aapt resource value: 0x7f07009a
-			public const int action_container = 2131165338;
+			// aapt resource value: 0x7f07009b
+			public const int action_container = 2131165339;
 			
 			// aapt resource value: 0x7f07007c
 			public const int action_context_bar = 2131165308;
 			
-			// aapt resource value: 0x7f0700a1
-			public const int action_divider = 2131165345;
+			// aapt resource value: 0x7f0700a2
+			public const int action_divider = 2131165346;
 			
-			// aapt resource value: 0x7f07009b
-			public const int action_image = 2131165339;
+			// aapt resource value: 0x7f07009c
+			public const int action_image = 2131165340;
 			
 			// aapt resource value: 0x7f070003
 			public const int action_menu_divider = 2131165187;
@@ -2442,11 +2445,11 @@ namespace SharedListsApp_Android
 			// aapt resource value: 0x7f07005b
 			public const int action_mode_close_button = 2131165275;
 			
-			// aapt resource value: 0x7f07009c
-			public const int action_text = 2131165340;
+			// aapt resource value: 0x7f07009d
+			public const int action_text = 2131165341;
 			
-			// aapt resource value: 0x7f0700aa
-			public const int actions = 2131165354;
+			// aapt resource value: 0x7f0700ab
+			public const int actions = 2131165355;
 			
 			// aapt resource value: 0x7f07005c
 			public const int activity_chooser_view_content = 2131165276;
@@ -2481,8 +2484,8 @@ namespace SharedListsApp_Android
 			// aapt resource value: 0x7f070062
 			public const int buttonPanel = 2131165282;
 			
-			// aapt resource value: 0x7f07009e
-			public const int cancel_action = 2131165342;
+			// aapt resource value: 0x7f07009f
+			public const int cancel_action = 2131165343;
 			
 			// aapt resource value: 0x7f070044
 			public const int center = 2131165252;
@@ -2496,8 +2499,8 @@ namespace SharedListsApp_Android
 			// aapt resource value: 0x7f070072
 			public const int checkbox = 2131165298;
 			
-			// aapt resource value: 0x7f0700a6
-			public const int chronometer = 2131165350;
+			// aapt resource value: 0x7f0700a7
+			public const int chronometer = 2131165351;
 			
 			// aapt resource value: 0x7f07004d
 			public const int clip_horizontal = 2131165261;
@@ -2553,8 +2556,8 @@ namespace SharedListsApp_Android
 			// aapt resource value: 0x7f07002f
 			public const int end = 2131165231;
 			
-			// aapt resource value: 0x7f0700ac
-			public const int end_padder = 2131165356;
+			// aapt resource value: 0x7f0700ad
+			public const int end_padder = 2131165357;
 			
 			// aapt resource value: 0x7f07003e
 			public const int enterAlways = 2131165246;
@@ -2598,8 +2601,8 @@ namespace SharedListsApp_Android
 			// aapt resource value: 0x7f070061
 			public const int icon = 2131165281;
 			
-			// aapt resource value: 0x7f0700ab
-			public const int icon_group = 2131165355;
+			// aapt resource value: 0x7f0700ac
+			public const int icon_group = 2131165356;
 			
 			// aapt resource value: 0x7f070039
 			public const int ifRoom = 2131165241;
@@ -2607,8 +2610,8 @@ namespace SharedListsApp_Android
 			// aapt resource value: 0x7f07005e
 			public const int image = 2131165278;
 			
-			// aapt resource value: 0x7f0700a7
-			public const int info = 2131165351;
+			// aapt resource value: 0x7f0700a8
+			public const int info = 2131165352;
 			
 			// aapt resource value: 0x7f070058
 			public const int italic = 2131165272;
@@ -2634,14 +2637,14 @@ namespace SharedListsApp_Android
 			// aapt resource value: 0x7f070060
 			public const int list_item = 2131165280;
 			
-			// aapt resource value: 0x7f0700af
-			public const int masked = 2131165359;
+			// aapt resource value: 0x7f0700b0
+			public const int masked = 2131165360;
 			
-			// aapt resource value: 0x7f0700a0
-			public const int media_actions = 2131165344;
+			// aapt resource value: 0x7f0700a1
+			public const int media_actions = 2131165345;
 			
-			// aapt resource value: 0x7f0700ad
-			public const int message = 2131165357;
+			// aapt resource value: 0x7f0700ae
+			public const int message = 2131165358;
 			
 			// aapt resource value: 0x7f070030
 			public const int middle = 2131165232;
@@ -2664,14 +2667,14 @@ namespace SharedListsApp_Android
 			// aapt resource value: 0x7f07001d
 			public const int normal = 2131165213;
 			
-			// aapt resource value: 0x7f0700a9
-			public const int notification_background = 2131165353;
+			// aapt resource value: 0x7f0700aa
+			public const int notification_background = 2131165354;
+			
+			// aapt resource value: 0x7f0700a4
+			public const int notification_main_column = 2131165348;
 			
 			// aapt resource value: 0x7f0700a3
-			public const int notification_main_column = 2131165347;
-			
-			// aapt resource value: 0x7f0700a2
-			public const int notification_main_column_container = 2131165346;
+			public const int notification_main_column_container = 2131165347;
 			
 			// aapt resource value: 0x7f07004b
 			public const int parallax = 2131165259;
@@ -2697,11 +2700,11 @@ namespace SharedListsApp_Android
 			// aapt resource value: 0x7f070049
 			public const int right = 2131165257;
 			
-			// aapt resource value: 0x7f0700a8
-			public const int right_icon = 2131165352;
+			// aapt resource value: 0x7f0700a9
+			public const int right_icon = 2131165353;
 			
-			// aapt resource value: 0x7f0700a4
-			public const int right_side = 2131165348;
+			// aapt resource value: 0x7f0700a5
+			public const int right_side = 2131165349;
 			
 			// aapt resource value: 0x7f07000c
 			public const int save_image_matrix = 2131165196;
@@ -2805,8 +2808,8 @@ namespace SharedListsApp_Android
 			// aapt resource value: 0x7f07004a
 			public const int start = 2131165258;
 			
-			// aapt resource value: 0x7f07009f
-			public const int status_bar_latest_event_content = 2131165343;
+			// aapt resource value: 0x7f0700a0
+			public const int status_bar_latest_event_content = 2131165344;
 			
 			// aapt resource value: 0x7f070075
 			public const int submenuarrow = 2131165301;
@@ -2841,8 +2844,8 @@ namespace SharedListsApp_Android
 			// aapt resource value: 0x7f070015
 			public const int textinput_error = 2131165205;
 			
-			// aapt resource value: 0x7f0700a5
-			public const int time = 2131165349;
+			// aapt resource value: 0x7f0700a6
+			public const int time = 2131165350;
 			
 			// aapt resource value: 0x7f07001b
 			public const int title = 2131165211;
@@ -2892,8 +2895,8 @@ namespace SharedListsApp_Android
 			// aapt resource value: 0x7f070016
 			public const int view_offset_helper = 2131165206;
 			
-			// aapt resource value: 0x7f0700ae
-			public const int visible = 2131165358;
+			// aapt resource value: 0x7f0700af
+			public const int visible = 2131165359;
 			
 			// aapt resource value: 0x7f07003b
 			public const int withText = 2131165243;

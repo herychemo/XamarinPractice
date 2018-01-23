@@ -29,6 +29,11 @@
             android:id="@+id/textView1"
             style="@style/SimpleTitle" />
       
+      <android.custom.views.RecyclerViewEmptySpacesSupport
+            android:id="@+id/MyRecyclerList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        />
       
       
     </LinearLayout>

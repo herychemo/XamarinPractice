@@ -23,7 +23,7 @@
         </scene>
         <scene sceneID="248">
             <objects>
-                <viewController id="249" sceneMemberID="viewController">
+                <viewController id="249" sceneMemberID="viewController" customClass="MainViewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="246"/>
                         <viewControllerLayoutGuide type="bottom" id="247"/>
@@ -33,19 +33,81 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hallo, Wie gehts dir?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="318" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hallo, Wie gehts dir?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="318" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES" userInteractionEnabled="NO">
                                 <rect key="frame" x="29" y="89" width="271" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                                </accessibility>
                             </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="548" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="20" y="127" width="368" height="571"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="549" customClass="MyTableCell" rowHeight="90" reuseIdentifier="MyCell_Id">
+                                        <rect key="frame" x="0.0" y="28" width="368" height="90"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="549" id="550">
+                                            <rect key="frame" x="0.0" y="0.0" width="368" height="89.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="586" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES" ambiguous="YES">
+                                                    <rect key="frame" x="15" y="8" width="201" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="589" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                                    <rect key="frame" x="253" y="8" width="100" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="605" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES" ambiguous="YES" numberOfLines="0">
+                                                    <rect key="frame" x="15" y="45" width="338" height="27"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint id="587" firstItem="586" firstAttribute="top" secondItem="550" secondAttribute="top" constant="8"/>
+                                                <constraint id="588" firstItem="586" firstAttribute="leading" secondItem="550" secondAttribute="leading" constant="15"/>
+                                                <constraint id="590" firstItem="550" firstAttribute="trailing" secondItem="589" secondAttribute="trailing" constant="15"/>
+                                                <constraint id="591" firstItem="589" firstAttribute="top" secondItem="550" secondAttribute="top" constant="8"/>
+                                                <constraint id="606" firstItem="605" firstAttribute="top" secondItem="586" secondAttribute="bottom" constant="16"/>
+                                                <constraint id="607" firstItem="550" firstAttribute="trailing" secondItem="605" secondAttribute="trailing" constant="15"/>
+                                                <constraint id="608" firstItem="605" firstAttribute="leading" secondItem="550" secondAttribute="leading" constant="15"/>
+                                                <constraint id="609" firstItem="550" firstAttribute="bottom" secondItem="605" secondAttribute="bottom" constant="17"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="TitleLabel" destination="586" id="name-outlet-586"/>
+                                            <outlet property="UserLabel" destination="589" id="name-outlet-589"/>
+                                            <outlet property="DescriptionLabel" destination="605" id="name-outlet-605"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
                         </subviews>
                         <constraints>
                             <constraint id="319" firstItem="318" firstAttribute="leading" secondItem="250" secondAttribute="leadingMargin" constant="9"/>
                             <constraint id="320" firstItem="318" firstAttribute="top" secondItem="246" secondAttribute="bottom" constant="25"/>
+                            <constraint id="551" firstItem="548" firstAttribute="leading" secondItem="250" secondAttribute="leadingMargin"/>
+                            <constraint id="552" firstItem="250" firstAttribute="trailingMargin" secondItem="548" secondAttribute="trailing" constant="6"/>
+                            <constraint id="553" firstItem="250" firstAttribute="centerX" secondItem="548" secondAttribute="centerX" constant="3"/>
+                            <constraint id="554" firstItem="548" firstAttribute="top" secondItem="318" secondAttribute="bottom" constant="17"/>
+                            <constraint id="870" firstItem="548" firstAttribute="leading" secondItem="250" secondAttribute="leadingMargin"/>
+                            <constraint id="871" firstItem="250" firstAttribute="trailingMargin" secondItem="548" secondAttribute="trailing" constant="6"/>
+                            <constraint id="873" firstItem="247" firstAttribute="top" secondItem="548" secondAttribute="bottom" constant="38"/>
                         </constraints>
                     </view>
                     <navigationItem title="Listas Locas" id="314" key="navigationItem"/>
+                    <connections>
+                        <outlet property="MyTableList" destination="548" id="name-outlet-548"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="251" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

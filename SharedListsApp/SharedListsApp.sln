@@ -14,9 +14,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedListsApp_IOS", "Share
 		{421C66C6-632A-462C-8A5F-F690478677AF} = {421C66C6-632A-462C-8A5F-F690478677AF}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedListsApp_DAL", "SharedListsApp_DAL\SharedListsApp_DAL.csproj", "{421C66C6-632A-462C-8A5F-F690478677AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedListsApp_DAL", "SharedListsApp_DAL\SharedListsApp_DAL.csproj", "{421C66C6-632A-462C-8A5F-F690478677AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedListsApp_BLL", "SharedListsApp_BLL\SharedListsApp_BLL.csproj", "{FB3AE962-DB92-4576-B5E8-C4D62484B79C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedListsApp_BLL", "SharedListsApp_BLL\SharedListsApp_BLL.csproj", "{FB3AE962-DB92-4576-B5E8-C4D62484B79C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

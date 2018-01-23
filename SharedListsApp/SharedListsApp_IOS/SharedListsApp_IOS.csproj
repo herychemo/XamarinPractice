@@ -89,8 +89,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="ModernHttpClient, Version=1.0.6552.18512, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\modernhttpclient-updated.2.5.0\lib\Xamarin.iOS10\ModernHttpClient.dll</HintPath>
+    <Reference Include="ModernHttpClient, Version=1.0.6596.19680, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\modernhttpclient-updated.2.5.1\lib\Xamarin.iOS10\ModernHttpClient.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\netstandard1.3\Newtonsoft.Json.dll</HintPath>
@@ -125,10 +125,29 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <Compile Include="MainViewController.cs" />
+    <Compile Include="MainViewController.designer.cs">
+      <DependentUpon>MainViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyTableCell.cs" />
+    <Compile Include="MyTableCell.designer.cs">
+      <DependentUpon>MyTableCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyTableSource.cs" />
     <Compile Include="ViewController.cs" />
     <Compile Include="ViewController.designer.cs">
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SharedListsApp_BLL\SharedListsApp_BLL.csproj">
+      <Project>{fb3ae962-db92-4576-b5e8-c4d62484b79c}</Project>
+      <Name>SharedListsApp_BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SharedListsApp_DAL\SharedListsApp_DAL.csproj">
+      <Project>{421c66c6-632a-462c-8a5f-f690478677af}</Project>
+      <Name>SharedListsApp_DAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\NETStandard.Library.2.0.1\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('..\packages\NETStandard.Library.2.0.1\build\netstandard2.0\NETStandard.Library.targets')" />

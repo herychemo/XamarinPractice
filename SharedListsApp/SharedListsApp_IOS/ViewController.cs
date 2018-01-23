@@ -1,5 +1,5 @@
-﻿using System;
-
+﻿
+using System;
 using UIKit;
 
 namespace SharedListsApp_IOS
@@ -14,8 +14,8 @@ namespace SharedListsApp_IOS
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
-            // Perform any additional setup after loading the view, typically from a nib.
         }
+
 
         public override void DidReceiveMemoryWarning()
         {
