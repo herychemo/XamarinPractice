@@ -2,5 +2,8 @@
 <resources>
 	
   <string name="app_name">SharedListsApp</string>
+
+  <string name="there_are_not_elements">No hay elementos</string>
+  
   
 </resources>

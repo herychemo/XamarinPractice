@@ -28,13 +28,13 @@
             android:layout_height="wrap_content"
             android:id="@+id/textView1"
             style="@style/SimpleTitle" />
-      
-      <android.custom.views.RecyclerViewEmptySpacesSupport
+        <android.custom.views.RecyclerViewEmptySpacesSupport
             android:id="@+id/MyRecyclerList"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-        />
-      
-      
+            style="@style/RecyclerListRecycler"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/empty_text"
+            android:text="@string/there_are_not_elements"
+            style="@style/RecyclerListNoItemsText" />
     </LinearLayout>
 </android.support.design.widget.CoordinatorLayout>

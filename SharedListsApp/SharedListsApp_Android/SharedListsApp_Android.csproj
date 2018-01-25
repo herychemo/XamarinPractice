@@ -117,6 +117,9 @@
     <None Include="Properties\AndroidManifest.xml" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="packages.config" />
+    <AndroidResource Include="Resources\layout\MyRow.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />
@@ -152,6 +155,16 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-xxhdpi\Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SharedListsApp_BLL\SharedListsApp_BLL.csproj">
+      <Project>{fb3ae962-db92-4576-b5e8-c4d62484b79c}</Project>
+      <Name>SharedListsApp_BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SharedListsApp_DAL\SharedListsApp_DAL.csproj">
+      <Project>{421c66c6-632a-462c-8a5f-f690478677af}</Project>
+      <Name>SharedListsApp_DAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Android.Support.Annotations.26.1.0.1\build\MonoAndroid80\Xamarin.Android.Support.Annotations.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Annotations.26.1.0.1\build\MonoAndroid80\Xamarin.Android.Support.Annotations.targets')" />

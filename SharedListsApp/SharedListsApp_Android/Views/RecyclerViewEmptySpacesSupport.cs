@@ -12,13 +12,22 @@ namespace Android.Custom.Views
     {
 
         // Variables
-        public View EmptyView { get { return EmptyView; } set {
+        private View emptyView;
+        public View EmptyView
+        {
+            get { return emptyView; }
+            set
+            {
                 handle_empty_event();
-                EmptyView = value;
-            } }
-        private OnNoChildClick OnNoChildClickListener { get { return OnNoChildClickListener; } set {
+                emptyView = value;
+            }
+        }
+
+        private OnNoChildClick onNoChildClickListener;
+        private OnNoChildClick OnNoChildClickListener
+        { get { return onNoChildClickListener; } set {
                 handle_empty_event();
-                OnNoChildClickListener = value;
+                onNoChildClickListener = value;
             } }
         private EmptyListObserver emptyListObserver;
 
@@ -57,6 +66,10 @@ namespace Android.Custom.Views
         public override void SetAdapter(Adapter adapter)
         {
             base.SetAdapter(adapter);
+
+            if (emptyListObserver == null)
+                emptyListObserver = new EmptyListObserver(this);
+
             if (adapter != null) adapter.RegisterAdapterDataObserver(emptyListObserver);
             emptyListObserver.OnChanged();
         }
