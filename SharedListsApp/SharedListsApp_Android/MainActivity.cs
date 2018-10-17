@@ -11,6 +11,7 @@ using Android.Content;
 using System;
 using SharedListsApp;
 using ModernHttpClient;
+using FFImageLoading;
 
 namespace SharedListsApp_Android
 {
